@@ -63,7 +63,15 @@ surround('dog', '*') // '*dog*'
 ```
 * string, the input string.
 * surround, the substring to surround the input string 
-* returns array of characters
+* returns surrounded string
+
+```js
+const { swapCase } = require('strility');
+
+swapCase('My STRING has UPPER CASE and lower case') // 'mY string HAS upper case AND LOWER CASE'
+```
+* string, the input string.
+* returns swapped lower/upper case string
 
 Between is an [among](https://github.com/bjarneo/among) proxy
 ```js

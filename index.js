@@ -4,6 +4,7 @@ module.exports = {
     isString: require('./src/is-string'),
     shuffle: require('./src/shuffle'),
     surround: require('./src/surround'),
+    swapCase: require('./src/swapcase'),
     chars: require('./src/chars'),
     between: require('./src/between'),
 };
