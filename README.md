@@ -51,7 +51,7 @@ shuffle('string') // 'trsgni'
 ```js
 const { chars } = require('strility');
 
-chars('string') // [ 's', 'r', 'i', 'n', 'g' ]
+chars('string') // [ 's', 't', 'r', 'i', 'n', 'g' ]
 ```
 * string, the input string. 
 * returns array of characters
