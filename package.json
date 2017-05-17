@@ -1,7 +1,7 @@
 {
   "name": "strility",
   "version": "1.0.0",
-  "description": "Stritility is a string manipulation library",
+  "description": "Strility is a string manipulation library",
   "main": "index.js",
   "author": "Bjarne Oeverli",
   "license": "MIT",

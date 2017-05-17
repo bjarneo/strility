@@ -2,7 +2,7 @@ strility
 --
 ![Travis](https://travis-ci.org/bjarneo/strility.svg?branch=master)
 
-Stritility is a string manipulation library
+Strility is a string manipulation library
 
 [Work in progress]
 
@@ -16,7 +16,7 @@ $ npm i --save strility
 Api
 --
 ```js
-const { isUpperCase } = require('stritility');
+const { isUpperCase } = require('strility');
 
 isUpperCase('string')
 ```
@@ -24,7 +24,7 @@ isUpperCase('string')
 * returns true or false
 
 ```js
-const { isLowerCase } = require('stritility');
+const { isLowerCase } = require('strility');
 
 isLowerCase('string')
 ```
@@ -32,7 +32,7 @@ isLowerCase('string')
 * returns true or false
 
 ```js
-const { isString } = require('stritility');
+const { isString } = require('strility');
 
 isString('string')
 ```
@@ -41,7 +41,7 @@ isString('string')
 
 ```js
 // Uses the Fisher-Yates algorithm
-const { shuffle } = require('stritility');
+const { shuffle } = require('strility');
 
 shuffle('string') // 'trsgni'
 ```
@@ -49,7 +49,7 @@ shuffle('string') // 'trsgni'
 * returns shuffled string
 
 ```js
-const { chars } = require('stritility');
+const { chars } = require('strility');
 
 chars('string') // [ 's', 'r', 'i', 'n', 'g' ]
 ```
