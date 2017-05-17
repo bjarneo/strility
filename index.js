@@ -3,6 +3,7 @@ module.exports = {
     isLowerCase: require('./src/is-lowercase'),
     isString: require('./src/is-string'),
     shuffle: require('./src/shuffle'),
+    surround: require('./src/surround'),
     chars: require('./src/chars'),
     between: require('./src/between'),
 };

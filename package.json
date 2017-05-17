@@ -1,6 +1,6 @@
 {
   "name": "strility",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Strility is a string manipulation library",
   "main": "index.js",
   "author": "Bjarne Oeverli",
@@ -34,6 +34,7 @@
     "isLowerCase",
     "isUpperCase",
     "shuffle",
+    "surround",
     "chars",
     "among",
     "between",
