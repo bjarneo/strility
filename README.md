@@ -56,6 +56,15 @@ chars('string') // [ 's', 't', 'r', 'i', 'n', 'g' ]
 * string, the input string. 
 * returns array of characters
 
+Between is an [among](https://github.com/bjarneo/among) proxy
+```js
+const { between } = require('strility');
+
+const find = between('{{', '}}');
+
+find('The [quick] [brown] {{fox}} $jumps$ over the [lazy] {{dog}}') // [ 'fox', 'dog' ]
+```
+
 Tests
 --
 ```bash
