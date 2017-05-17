@@ -33,6 +33,7 @@
     "isString",
     "isLowerCase",
     "isUpperCase",
+    "swapCase",
     "shuffle",
     "surround",
     "chars",
