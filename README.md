@@ -73,7 +73,7 @@ replaceAll(
     ['quick', 'dog'],
     ['sleepy', 'cat']
 );
-// The lazy brown fox jumps over the sleepy cat
+// The sleepy brown fox jumps over the lazy cat
 ```
 * string, the input string.
 * search, the array of search strings 
