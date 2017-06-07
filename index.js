@@ -7,4 +7,5 @@ module.exports = {
     swapCase: require('./src/swapcase'),
     chars: require('./src/chars'),
     between: require('./src/between'),
+    replaceAll: require('./src/replace-all')
 };

@@ -66,6 +66,21 @@ surround('dog', '*') // '*dog*'
 * returns surrounded string
 
 ```js
+const { replaceAll } = require('strility');
+
+replaceAll(
+    'The quick brown fox jumps over the lazy dog', 
+    ['quick', 'dog'],
+    ['sleepy', 'cat']
+);
+// The lazy brown fox jumps over the sleepy cat
+```
+* string, the input string.
+* search, the array of search strings 
+* replace, the array of replace strings
+* returns replaced string
+
+```js
 const { swapCase } = require('strility');
 
 swapCase('My STRING has UPPER CASE and lower case') // 'mY string HAS upper case AND LOWER CASE'
